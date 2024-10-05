@@ -1,0 +1,37 @@
+{
+    "communication_pathway": {
+        "prompt": "You are a helpful assistant. Respond to the following input: {input}"
+    },
+    "supervisor": {
+        "prompt_template": "Your task is to: {input}\n\nProvide a detailed response in JSON format with the following structure:\n{\"video_segments\": [{\"timeframe\": \"0-5 seconds\", \"visual_elements\": [\"...\"], \"audio_narrative\": \"...\"}, ...]}"
+    },
+    "foreman": {
+        "prompt_template": "You are a Foreman Agent responsible for interpreting video structures and creating detailed visual instructions. Your task is to: {input}\n\nProvide a detailed response in JSON format with specific instructions for creating Manim animations."
+    },
+    "code_generator": {
+        "prompt_template": "You are a Code Generator Agent responsible for creating Manim code based on visual instructions. Your task is to: {input}\n\nProvide Python code for Manim that implements the described animations."
+    },
+    "video_watcher": {
+        "prompt_template": "You are a Video Watcher Agent responsible for evaluating generated video segments. Your task is to: {input}\n\nProvide an evaluation and suggestions for improvement in JSON format."
+    },
+    "agent_communication": {
+        "supervisor": {
+            "foreman": {"mode": "json"},
+            "video_watcher": {"mode": "text"},
+            "code_generator": {"mode": "text"}
+        },
+        "foreman": {
+            "supervisor": {"mode": "text"},
+            "code_generator": {"mode": "json"}
+        },
+        "code_generator": {
+            "video_watcher": {"mode": "json"},
+            "supervisor": {"mode": "text"},
+            "foreman": {"mode": "text"}
+        },
+        "video_watcher": {
+            "supervisor": {"mode": "text"},
+            "code_generator": {"mode": "text"}
+        }
+    }
+}

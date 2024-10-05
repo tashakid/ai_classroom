@@ -1,0 +1,113 @@
+{
+    "instructions": [
+      {
+        "timeframe": "0-5 seconds",
+        "visuals": [
+          {
+            "type": "text",
+            "content": "Calculate the Derivative of xy^3 with respect to y",
+            "position": "center",
+            "style": {
+              "font_size": "large",
+              "font_color": "white",
+              "background_color": "dark_blue"
+            }
+          },
+          {
+            "type": "background_image",
+            "content": "mathematical_symbols.png"
+          }
+        ]
+      },
+      {
+        "timeframe": "6-15 seconds",
+        "visuals": [
+          {
+            "type": "equation",
+            "content": "xy^3",
+            "position": "center",
+            "highlight": "y"
+          }
+        ]
+      },
+      {
+        "timeframe": "16-25 seconds",
+        "visuals": [
+          {
+            "type": "equation",
+            "content": "(uv)' = u'v + uv'",
+            "highlight": "each part"
+          }
+        ]
+      },
+      {
+        "timeframe": "26-35 seconds",
+        "visuals": [
+          {
+            "type": "equation",
+            "content": "(xy^3)' = x'(y^3) + x(y^3)'",
+            "highlight": "x'(y^3)"
+          }
+        ]
+      },
+      {
+        "timeframe": "36-45 seconds",
+        "visuals": [
+          {
+            "type": "equation",
+            "content": "The derivative of y^3 is 3y^2",
+            "highlight": "3y^2"
+          }
+        ]
+      },
+      {
+        "timeframe": "46-55 seconds",
+        "visuals": [
+          {
+            "type": "equation",
+            "content": "(xy^3)' = 3xy^2",
+            "highlight": "3xy^2",
+            "transformation": "simplify"
+          }
+        ]
+      },
+      {
+        "timeframe": "56-65 seconds",
+        "visuals": [
+          {
+            "type": "equation",
+            "content": "(xy^3)' = 3xy^2",
+            "style": {
+              "highlight_color": "bright_yellow",
+              "font_weight": "bold"
+            }
+          }
+        ]
+      },
+      {
+        "timeframe": "66-75 seconds",
+        "visuals": [
+          {
+            "type": "recap_slide",
+            "content": "Function: xy^3 | Derivative: 3xy^2",
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "timeframe": "76-90 seconds",
+        "visuals": [
+          {
+            "type": "text",
+            "content": "Thank you for watching",
+            "style": {
+              "font_size": "large",
+              "font_color": "white",
+              "background_color": "dark_blue"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

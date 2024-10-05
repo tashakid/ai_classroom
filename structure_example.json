@@ -1,0 +1,19 @@
+{
+    "video_segments": [
+      {
+        "timeframe": "0-5 seconds",
+        "visual_elements": ["Visual description 1", "Visual description 2"],
+        "audio": "Audio narration for this segment."
+      },
+      {
+        "timeframe": "6-15 seconds",
+        "visual_elements": ["Visual description 1", "Visual description 2"],
+        "audio": "Audio narration for this segment."
+      },
+      {
+        "timeframe": "16-25 seconds",
+        "visual_elements": ["Visual description 1", "Visual description 2"],
+        "audio": "Audio narration for this segment."
+      }
+    ]
+  }

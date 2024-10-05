@@ -1,0 +1,7 @@
+mistralai>=1.0.0
+manim
+langchain
+ray
+pydantic
+opencv-python
+python-dotenv  # Added to manage environment variables

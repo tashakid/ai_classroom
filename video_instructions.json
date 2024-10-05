@@ -1,0 +1,237 @@
+{
+    "instructions": [
+        {
+            "timeframe": "0-5 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Calculate the Integral of 1/x^2 dx",
+                    "position": "center",
+                    "style": {
+                        "font_size": "large",
+                        "font_color": "white",
+                        "background_color": "dark_blue"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "\u222b(1/x^2) dx",
+                    "position": "center_bottom",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "6-15 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Step 1: Recognize the integral form",
+                    "position": "top",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "\u222b(1/x^2) dx = \u222b(x^-2) dx",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "16-25 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Step 2: Apply the power rule",
+                    "position": "top",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "\u222b(x^-2) dx = -x^-1 + C",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "26-35 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Step 3: Simplify the expression",
+                    "position": "top",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "-x^-1 + C = -1/x + C",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "36-45 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Final Answer",
+                    "position": "top",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "\u222b(1/x^2) dx = -1/x + C",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "46-55 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Recap: Power rule application",
+                    "position": "top",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "\u222b(x^n) dx = (x^(n+1))/(n+1) + C",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "56-65 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Practice Problems",
+                    "position": "top",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "\u222b(1/x^3) dx",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "66-75 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Hint: Rewrite as x^-3",
+                    "position": "top",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                },
+                {
+                    "type": "equation",
+                    "content": "\u222b(x^-3) dx",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "76-85 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "Conclusion",
+                    "position": "center",
+                    "style": {
+                        "font_size": "large",
+                        "font_color": "white",
+                        "background_color": "dark_blue"
+                    }
+                },
+                {
+                    "type": "text",
+                    "content": "Thank you for watching",
+                    "position": "center_bottom",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "timeframe": "86-90 seconds",
+            "visuals": [
+                {
+                    "type": "text",
+                    "content": "End Screen",
+                    "position": "top",
+                    "style": {
+                        "font_size": "large",
+                        "font_color": "white",
+                        "background_color": "dark_blue"
+                    }
+                },
+                {
+                    "type": "text",
+                    "content": "Subscribe for more videos",
+                    "position": "center",
+                    "style": {
+                        "font_size": "medium",
+                        "font_color": "white"
+                    }
+                }
+            ]
+        }
+    ]
+}

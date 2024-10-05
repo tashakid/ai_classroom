@@ -1,0 +1,34 @@
+{
+    "instructions": [
+      {
+        "timeframe": "0-5 seconds",
+        "visuals": [
+          {
+            "type": "text",
+            "content": "Calculate the Derivative of xy^3 with respect to y",
+            "position": "center",
+            "style": {
+              "font_size": "large",
+              "font_color": "white",
+              "background_color": "dark_blue"
+            }
+          },
+          {
+            "type": "background_image",
+            "content": "mathematical_symbols.png"
+          }
+        ]
+      },
+      {
+        "timeframe": "6-15 seconds",
+        "visuals": [
+          {
+            "type": "equation",
+            "content": "xy^3",
+            "position": "center",
+            "highlight": "y"
+          }
+        ]
+      }
+    ]
+  }
